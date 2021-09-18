@@ -1,0 +1,18 @@
+/*
+Theme Name: Wowfix Laptops 2021
+Text Domain: Wowfix Laptops 2021
+Version: 1.0
+Description: Theme for Wowfix Laptops website
+Author: Harish Narayanan
+Authot URI: https://www.linkedin.com/in/harish-narayanan-08
+ */
+
+/* removeIf(production) */
+@import url("assets/css/variables.css");
+@import url("assets/css/flickity.css");
+@import url("assets/css/reset.css");
+@import url("assets/css/flickity.css");
+@import url("assets/css/skeleton.css");
+@import url("assets/css/header.css");
+@import url("assets/css/home.css");
+/* endRemoveIf(production) */

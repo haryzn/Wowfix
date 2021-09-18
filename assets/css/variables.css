@@ -1,0 +1,14 @@
+:root{
+   --body-text: #371212;
+   --wow-red: #FF0000;
+   --wow-red-bg: #FF3838;
+   --wow-mix-bg: #FFF1F1;
+
+   --font-300: 300;
+   --font-600: 600;
+
+   --body--size: 16px;
+
+   --border-radius: 30px;
+   --border-radius-2: 20px;
+}
