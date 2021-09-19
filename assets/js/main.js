@@ -156,20 +156,22 @@ $('.ww-next').click(function(event){
 
 function postToFormSpree() {
     var save_url = "https://submit-form.com/TyBXYkbl";
+    var ww_ref_num = "WF-" + Date.now()
     $.ajax({
         url: save_url,
         method: "POST",
         dataType: "json",
         data: {
-            name: $('#name').val(),
-            brand: $('#brands').val(),
-            problem: $('#problem').val(),
-            phoneno: $('#phoneNumber').val().replace(/^0+/, ''),
-            '_email.subject': $('#phoneNumber').val(),
-            '_email.template.title': 'Wowfix New Enquiry'
+            "Name": $('#name').val(),
+            "Brand Chosen": $('#brands').val(),
+            "Issue": $('#problem').val(),
+            "Phone No": $('#phoneNumber').val().replace(/^0+/, ''),
+            "Booking No": ww_ref_num,
+            '_email.subject': "New Enquiry - " + $('#phoneNumber').val(),
         },
         success: function () {
             $('.loader').hide();
+            $('#ww-booking__num').text(ww_ref_num);
             $('.ww-form__success-message').show();
         },
         error: function () {

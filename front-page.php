@@ -108,7 +108,7 @@ get_header();
                             </div>
                             <div class="flex-parent ww-form__review">
                                 <div class="child-1-of-4 ww-form__brand-chosen">
-                                    <img src=<?php echo do_shortcode('[template_dir_img]enovo.png') ?> alt="lenovo logo">
+                                    <img src=<?php echo do_shortcode('[template_dir_img]Lenovo.png') ?> alt="lenovo logo">
                                 </div>
                                 <div class="child-3-of-4 ww-form__brand-issue">
                                     <p>Display Broken or not working</p>
@@ -125,6 +125,7 @@ get_header();
                     <div class="ww-form__success-message">
                         <img src=<?php echo do_shortcode('[template_dir_img]smiley.png') ?> alt="Wow we have reached an agreement"
                             class="ww-thank__smile">
+                        <p class="ww-form__ref-no">Booking no: <b id="ww-booking__num">WW-123456</b></p>
                         <h2 class="ww-features__head ww-thankyou">Thankyou for contacting us. Our customer support
                             representative will contact you shortly.</h2>
                     </div>
@@ -246,7 +247,7 @@ get_header();
         <div class="container">
             <div class="main-carousel">
                 <div class="ww-carosuel__item carousel-cell">
-                    <img src="assets/images/Star.png" alt="Star testimonial" class="ww-star">
+                    <img src=<?php echo do_shortcode('[template_dir_img]Star.png') ?> alt="Star testimonial" class="ww-star">
                     <p class="ww-carousel__dialog">
                         I have been doing business with this team for many years and I need to stress that their
                         professional approach and value for time & money is really commendable... Keep up the good
@@ -259,7 +260,7 @@ get_header();
                     </div>
                 </div>
                 <div class="ww-carosuel__item carousel-cell">
-                    <img src="assets/images/Star.png" alt="Star testimonial" class="ww-star">
+                    <img src=<?php echo do_shortcode('[template_dir_img]Star.png') ?> alt="Star testimonial" class="ww-star">
                     <p class="ww-carousel__dialog">
                         The service provided was really good with affordable price. A One stopastop solution for all
                         your laptop needs. Overall was a good service!
@@ -271,7 +272,7 @@ get_header();
                     </div>
                 </div>
                 <div class="ww-carosuel__item carousel-cell">
-                    <img src="assets/images/Star.png" alt="Star testimonial" class="ww-star">
+                    <img src=<?php echo do_shortcode('[template_dir_img]Star.png') ?> alt="Star testimonial" class="ww-star">
                     <p class="ww-carousel__dialog">
                         Done good analysis and solved my laptop issue. Very good professional approach
                     </p>
