@@ -97,7 +97,7 @@ $('.ww-next').click(function(event){
                 default:
                     imagelink = 'Others.png';
             }
-            var imagelinkUpdated = 'wp-content/themes/Wowfix/assets/images/' + imagelink
+            var imagelinkUpdated = window.location.origin + '/wp-content/themes/Wowfix/assets/images/' + imagelink
             $('.ww-form__brand-chosen img').attr('src', imagelinkUpdated);
             formValid.push(sceneValidationOne)
         }
