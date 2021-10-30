@@ -38,7 +38,7 @@ get_header();
                         We demonstrate our reliability by sourcing only the original spares and accessories. Our
                         standard warranties ensure that you can reach out to us at any time for further assistant.
                     </p>
-                    <a href="index.html" class="ww-schedule">
+                    <a href="/" class="ww-schedule">
                         <b>Schedule a call with us →</b>
                     </a>
                 </div>

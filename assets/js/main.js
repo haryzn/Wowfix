@@ -167,7 +167,7 @@ function postToFormSpree() {
             "Issue": $('#problem').val(),
             "Phone No": $('#phoneNumber').val().replace(/^0+/, ''),
             "Booking No": ww_ref_num,
-            '_email.subject': "New Enquiry - " + $('#phoneNumber').val(),
+            '_email.subject': "Wowfix Enquiry - " + $('#phoneNumber').val() + " | Booking no - " + ww_ref_num,
         },
         success: function () {
             $('.loader').hide();
