@@ -20,6 +20,8 @@
      wp_head(); 
     ?>
 
+    <?php get_template_part('template-parts/tracking-scripts'); ?>
+
 </head>
 
 <body>
