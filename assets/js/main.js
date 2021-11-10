@@ -97,7 +97,8 @@ $('.ww-next').click(function(event){
                 default:
                     imagelink = 'Others.png';
             }
-            var imagelinkUpdated = window.location.origin + '/wp-content/themes/Wowfix/assets/images/' + imagelink
+            var currentimagePath = $('.ww-form__brand-chosen img').attr('src')
+            var imagelinkUpdated = currentimagePath.slice(0,currentimagePath.indexOf("/w")) + '/wp-content/themes/Wowfix/assets/images/' + imagelink
             $('.ww-form__brand-chosen img').attr('src', imagelinkUpdated);
             formValid.push(sceneValidationOne)
         }
@@ -155,7 +156,7 @@ $('.ww-next').click(function(event){
 })
 
 function postToFormSpree() {
-    var save_url = "https://submit-form.com/TyBXYkbl";
+    var save_url = "https://submit-form.com/t4GWADUO";
     var ww_ref_num = "WF-" + Date.now()
     $.ajax({
         url: save_url,

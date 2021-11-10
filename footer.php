@@ -2,7 +2,7 @@
         <div class="container">
             <div class="flex-parent">
                 <div class="child-1-of-3 text-mcenter-dleft">
-                    <a href="/terms-and-conditions/" class="ww-terms">Terms & Conditions</a>
+                    <a href="#" class="ww-terms">Terms & Conditions</a>
                 </div>
                 <div class="child-1-of-3 text-mcenter-dleft">
                     <div class="ww-social__share">

@@ -1,3 +1,10 @@
+.ww-header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
 .ww-header .container{
     background: white;
     padding: 0;
@@ -134,6 +141,7 @@
     .ww-header .container{
         border-bottom-left-radius: var(--border-radius);
         border-bottom-right-radius: var(--border-radius);
+        box-shadow: 0 13px 20px 0 rgb(128 137 144 / 10%);
     }
     .ww-head__wrap .ww-btn{
         display: inline-block;
