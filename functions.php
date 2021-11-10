@@ -7,7 +7,6 @@ add_shortcode( 'template_dir_img', function( $atts ){
 
 // Automatic title tag
 function wowfix_theme_support(){
-    add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
 }
 
