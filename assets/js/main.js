@@ -172,8 +172,8 @@ function postToFormSpree() {
         },
         success: function () {
             $('.loader').hide();
-            $('#ww-booking__num').text(ww_ref_num);
-            $('.ww-form__success-message').show();
+            var thankyouPage = window.location.origin + '/thank-you?' + 'booking_id=' + ww_ref_num
+            window.location.assign(thankyouPage)
         },
         error: function () {
             console.log(error)
